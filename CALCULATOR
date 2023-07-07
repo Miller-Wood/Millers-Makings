@@ -1,0 +1,43 @@
+def calculator():
+
+    hihello = True
+    while hihello:
+
+        firstnumber = 0.0
+        secondnumber = 0.0
+        hihihello = True
+        while hihihello:
+            choice = eval(input("Pick your poison, tell me what you doin\' \n type 1 for addition, 2 for substraction, three for multiplication, 4 for division, 5 for exponentials, and 6 square roots. any other numbers, and I'll be vaguely sad."))
+            choice = choice//1;
+            if choice > 6:
+                print("I was wrong, I\'m not vaguely sad, I am ANGRY AAHHHAHHAHHHHHH TRY IT AGAIN TRY IT AGAIN TRY IT AGAIN BRAAASUEBSABCP")
+            else:
+                hihihello = False;
+        if choice == 1:
+            firstnumber = eval(input("pick the first number"))
+            secondnumber = eval(input("pick the second number"))
+            print(firstnumber+secondnumber)
+        if choice == 2:
+            firstnumber = eval(input("pick the first number"))
+            secondnumber = eval(input("pick the second number"))
+            print(firstnumber-secondnumber)
+        if choice == 3:
+            firstnumber = eval(input("pick the first number"))
+            secondnumber = eval(input("pick the second number"))
+            print(firstnumber*secondnumber)
+        if choice == 4:
+            firstnumber = eval(input("pick the first number"))
+            secondnumber = eval(input("pick the second number"))
+            print(firstnumber/secondnumber)
+        if choice == 5:
+            firstnumber = eval(input("pick the first number"))
+            secondnumber = eval(input("pick the second number"))
+            print(firstnumber**secondnumber)
+        if choice == 1:
+            firstnumber = eval(input("pick the first number"))
+            print(math.sqrt(firstnumber))
+            
+        help = input(eval("Wanna mkae something else. 1 for yes, anything else is a no."))
+        hiHello = help == 1;
+
+calculator()

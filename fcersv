@@ -1,0 +1,7 @@
+import graphics
+win = GraphWin('Shapes')
+win = GraphWin ('Jon')
+center = Point(100, 100)
+circ = Circle(center, 30)
+circ.setFill('red')
+circ.draw(win)
